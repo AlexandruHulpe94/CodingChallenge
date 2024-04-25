@@ -100,6 +100,9 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
 
+    //Coil
+    implementation("io.coil-kt:coil-compose:2.1.0")
+
     // Testing
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
@@ -109,29 +112,28 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
 
     // Mockito
-    testImplementation("org.mockito:mockito-core:3.12.4")
+    testImplementation("org.mockito:mockito-core:4.4.0")
 
     //Mockk
-    testImplementation("io.mockk:mockk:1.12.0")
+    testImplementation("io.mockk:mockk:1.12.3")
 
     // Coroutine Test
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.0")
 
     // AndroidX Test - Core
-    testImplementation("androidx.test:core:1.4.1")
+    testImplementation("androidx.test:core:1.5.0")
 
     // AndroidX Test - JUnit
-    testImplementation("androidx.test.ext:junit:1.1.3")
+    testImplementation("androidx.test.ext:junit:1.1.5")
 
     // AndroidX Test - Rules
-    testImplementation("androidx.test:rules:1.4.1")
+    testImplementation("androidx.test:rules:1.5.0")
 
     // AndroidX Test - Runner
-    testImplementation("androidx.test:runner:1.4.1")
+    testImplementation("androidx.test:runner:1.5.2")
 
     // AndroidX Arch Core - Testing
-    testImplementation("androidx.arch.core:core-testing:2.1.0")
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
 
-    //Coil
-    implementation("io.coil-kt:coil-compose:2.1.0")
+
 }
